@@ -1,4 +1,4 @@
-
+//添加layout的index
 import Layout from '../components/Layout';
 
 export default () => (

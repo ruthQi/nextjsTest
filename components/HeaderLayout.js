@@ -7,7 +7,7 @@ const linkStyle = {
 const HeaderLayout = () => (
    <div>
       <Link href="/indexLayout">
-         <a style={linkStyle}>Share</a>
+         <a style={linkStyle}>Index</a>
       </Link>
       <Link href="/aboutLayout">
          <a style={linkStyle}>About</a>

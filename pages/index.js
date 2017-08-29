@@ -8,8 +8,12 @@ In case you don't provide an <a> tag,
 it will only add the onClick event handler and won't pass the href property.
 */
 import Link from 'next/link';
+import Head from 'next/head';//Head组件
 const Index = ()=>(
    <div>
+      <Head>
+         <title>Test</title>
+      </Head>
       {/*加在link上的style={{fontSize: 20}}没有任何样式，因为Link是一个更高阶的组件，只有href和相似的属性*/}
       <Link href="/about" >
          <a style={{fontSize: 20}}>About Page</a>
